@@ -8,7 +8,7 @@ class Cover extends React.Component {
         <img src={Logo} alt="" />
         <h1>Fuegoleon</h1>
         <h2>Development</h2>
-        <section id="section05" class="demo">
+        <section id="section05" className="demo">
           <span></span>Scroll
         </section>
       </div>

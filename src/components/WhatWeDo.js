@@ -2,7 +2,7 @@ import React from 'react';
 import WhoWeAre from './WhoWeAre';
 import Contact from './Contact';
 import ScrollMagic from 'scrollmagic';
-import TweenMax from 'gsap/TweenMax';
+
 import $ from 'jquery';
 
 class WhatWeDo extends React.Component {
@@ -16,7 +16,7 @@ class WhatWeDo extends React.Component {
     var items = new ScrollMagic.Controller();
 
     $('.item').each(function() {
-      var itemSlide = new ScrollMagic.Scene({
+      new ScrollMagic.Scene({
         triggerElement: this,
         triggerHook: 0.7
       })
@@ -25,7 +25,7 @@ class WhatWeDo extends React.Component {
         .addTo(items);
     });
     // OUR PROCESS STUFF
-    var scrollMagicController = new ScrollMagic.Controller();
+    new ScrollMagic.Controller();
     $('#our-process span.icon').hover(function() {
       $('#our-process span.icon').removeClass('active');
       $(this).addClass('active');
@@ -37,44 +37,6 @@ class WhatWeDo extends React.Component {
 
       return false;
     });
-    var processTween = TweenMax.from(
-      '#our-process h2 span',
-      0.5,
-      {
-        y: 150,
-        opacity: 0.5
-      },
-      {
-        y: 0,
-        opacity: 0.1
-      },
-      0.1
-    );
-    var processScene = new ScrollMagic.Scene({
-      triggerElement: '#our-process h2',
-      duration: 700,
-      offset: -100
-    })
-      .setTween(processTween)
-      .addTo(scrollMagicController);
-    var processIconsTween = TweenMax.from(
-      '#our-process .step',
-      0.5,
-      {
-        opacity: 0.4
-      },
-      {
-        opacity: 1
-      },
-      0.1
-    );
-    var processIconsScene = new ScrollMagic.Scene({
-      triggerElement: '#our-process h2',
-      duration: 500,
-      offset: -100
-    })
-      .setTween(processIconsTween)
-      .addTo(scrollMagicController);
   }
 
   render() {

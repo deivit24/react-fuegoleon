@@ -39,7 +39,6 @@ class Nav extends React.Component {
       <ul className="nav justify-content-center sticky-top">
         <li className="nav-item">
           <Link
-            exact
             activeClass="active"
             className="nav-link"
             to="WhatWeDo"
@@ -52,7 +51,6 @@ class Nav extends React.Component {
         </li>
         <li className="nav-item">
           <Link
-            exact
             activeClass="active"
             className="nav-link"
             to="WhoWeAre"
@@ -65,7 +63,6 @@ class Nav extends React.Component {
         </li>
         <li className="nav-item">
           <Link
-            exact
             activeClass="active"
             className="nav-link"
             to="Contact"

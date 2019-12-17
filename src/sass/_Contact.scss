@@ -222,9 +222,15 @@
   font-weight: 200;
   font-size: 175px;
   margin-top: -1px;
+  @media only screen and (max-width: 500px) {
+    font-size: 100px;
+  }
 }
 #Contact h2 span.chat {
   font-size: 220px;
+  @media only screen and (max-width: 500px) {
+    font-size: 120px;
+  }
 }
 #Contact p.lead {
   margin: 0;
@@ -237,6 +243,10 @@
   margin-top: 51px;
   z-index: 10;
   position: relative;
+  @media only screen and (max-width: 500px) {
+    font-size: 20px;
+    text-align: center;
+  }
 }
 #Contact p.lead a {
   color: #fff;

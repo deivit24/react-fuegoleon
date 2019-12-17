@@ -22,6 +22,9 @@ body {
       cursor: pointer;
       color: white !important;
     }
+    @media only screen and (max-width: 500px) {
+      font-size: 1rem;
+    }
   }
   .active {
     transition: all 0.5s ease-in-out;
@@ -33,7 +36,6 @@ body {
 .pink {
   background: #ff3535;
   .nav-link {
-    font-size: 1.5rem;
     text-decoration: none;
     color: black !important;
     font-family: $raj;
@@ -47,7 +49,6 @@ body {
 .white {
   background: #fff;
   .nav-link {
-    font-size: 1.5rem;
     text-decoration: none;
     color: black !important;
     font-family: $raj;
@@ -74,6 +75,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  img {
+    @media only screen and (max-width: 500px) {
+      width: 320px;
+    }
+  }
   h1 {
     font-family: $mono;
     font-size: 7rem;
@@ -84,12 +90,18 @@ body {
     -moz-animation: flickerAnimation 1s infinite;
     -o-animation: flickerAnimation 1s infinite;
     animation: flickerAnimation 1s infinite;
+    @media only screen and (max-width: 500px) {
+      font-size: 3rem;
+    }
   }
   h2 {
     font-family: $wall;
     font-size: 5rem;
     margin-top: 0;
     color: #ff3535;
+    @media only screen and (max-width: 500px) {
+      font-size: 2rem;
+    }
   }
   section {
     position: relative;
@@ -228,6 +240,7 @@ body {
         color: #fff;
         text-align: left;
         font-size: 100px;
+
         span {
           display: block;
           line-height: 77%;
@@ -237,18 +250,27 @@ body {
           font-size: 100px;
           line-height: 100%;
           font-family: $raj;
+          @media only screen and (max-width: 500px) {
+            font-size: 40px;
+          }
         }
 
         .line-2 {
           font-weight: 300;
           font-size: 120px;
           font-family: $raj;
+          @media only screen and (max-width: 500px) {
+            font-size: 50px;
+          }
         }
         .line-3 {
           font-weight: 700;
           font-size: 150px;
           margin-top: 20px;
           font-family: $raj;
+          @media only screen and (max-width: 500px) {
+            font-size: 55px;
+          }
         }
       }
       hr {
@@ -331,6 +353,9 @@ body {
         line-height: 43px;
         color: rgb(214, 216, 255);
         margin: 0;
+        @media only screen and (max-width: 500px) {
+          font-size: 20px;
+        }
         strong {
           font-weight: 400;
         }
@@ -353,6 +378,9 @@ body {
     text-align: center;
     background: #ff3535;
     padding-bottom: 250px;
+    @media only screen and (max-width: 500px) {
+      padding-bottom: 350px;
+    }
     &:before {
       content: ' ';
       display: block;
@@ -383,6 +411,11 @@ body {
     font-weight: 700;
     opacity: 0.5;
     z-index: 89;
+    @media only screen and (max-width: 500px) {
+      font-size: 110px;
+      text-align: left;
+      left: 0;
+    }
   }
   #our-process .huge-town span {
     display: block;
@@ -427,6 +460,14 @@ body {
     border-radius: 100%;
     position: relative;
     border: solid 3px #fff;
+    @media only screen and (max-width: 500px) {
+      width: 75px;
+      height: 75px;
+      line-height: 75px;
+      color: #00d2c1;
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
   }
   #our-process span.icon.think {
     color: #ff6e6e;
@@ -461,6 +502,10 @@ body {
     -moz-transition: all 250ms ease;
     transition: all 250ms ease;
     background: #fff;
+    @media only screen and (max-width: 500px) {
+      width: 75px;
+      height: 75px;
+    }
   }
   #our-process span.icon:hover,
   #our-process span.icon.active {
@@ -494,6 +539,9 @@ body {
     font-size: 40px;
     color: #fff;
     letter-spacing: 0.05em;
+    @media only screen and (max-width: 500px) {
+      font-size: 25px;
+    }
   }
   #our-process h4 {
     position: absolute;
@@ -512,6 +560,9 @@ body {
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
     transition: all 250ms ease;
+    @media only screen and (max-width: 500px) {
+      font-size: 25px;
+    }
   }
   #our-process h4.active {
     opacity: 1;
@@ -534,6 +585,9 @@ body {
   #Bio {
     position: relative;
     padding: 200px 0px 200px 0px;
+    @media only screen and (max-width: 500px) {
+      padding: 150px 0px 150px 0px;
+    }
     &:before {
       content: ' ';
       display: block;
@@ -558,16 +612,26 @@ body {
         font-weight: bold;
         font-size: 5rem;
         margin-bottom: 25px;
+        @media only screen and (max-width: 500px) {
+          font-size: 3rem;
+        }
       }
       img {
         border-radius: 50%;
         width: 320px;
         border: 2px solid green;
         margin-bottom: 25px;
+        @media only screen and (max-width: 500px) {
+          width: 300px;
+        }
       }
       p {
         font-size: 1.5rem;
         font-family: $open;
+        @media only screen and (max-width: 500px) {
+          font-size: 1.2rem;
+          padding: 10px;
+        }
         .david {
           font-size: 2rem;
           font-weight: bold;
@@ -623,6 +687,12 @@ body {
       flex-direction: row;
       justify-content: center;
       align-items: center;
+      @media only screen and (max-width: 500px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     }
     .contents {
       z-index: 9999999;
@@ -641,6 +711,19 @@ body {
       font-family: $raj;
       text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
         0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+
+      .our {
+        @media only screen and (max-width: 500px) {
+          display: none;
+        }
+      }
+      @media only screen and (max-width: 500px) {
+        font-size: 50px;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        letter-spacing: -20px;
+        line-height: 50px;
+      }
     }
     .list ul {
       right: 0;

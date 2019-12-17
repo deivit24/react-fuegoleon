@@ -222,9 +222,15 @@
   font-weight: 200;
   font-size: 175px;
   margin-top: -1px; }
+  @media only screen and (max-width: 500px) {
+    #Contact h2 span.lets {
+      font-size: 100px; } }
 
 #Contact h2 span.chat {
   font-size: 220px; }
+  @media only screen and (max-width: 500px) {
+    #Contact h2 span.chat {
+      font-size: 120px; } }
 
 #Contact p.lead {
   margin: 0;
@@ -237,6 +243,10 @@
   margin-top: 51px;
   z-index: 10;
   position: relative; }
+  @media only screen and (max-width: 500px) {
+    #Contact p.lead {
+      font-size: 20px;
+      text-align: center; } }
 
 #Contact p.lead a {
   color: #fff; }
@@ -308,6 +318,9 @@ body {
     .justify-content-center .nav-link:hover {
       cursor: pointer;
       color: white !important; }
+    @media only screen and (max-width: 500px) {
+      .justify-content-center .nav-link {
+        font-size: 1rem; } }
   .justify-content-center .active {
     transition: all 0.5s ease-in-out;
     color: white !important;
@@ -317,7 +330,6 @@ body {
 .pink {
   background: #ff3535; }
   .pink .nav-link {
-    font-size: 1.5rem;
     text-decoration: none;
     color: black !important;
     font-family: "Rajdhani", sans-serif;
@@ -329,7 +341,6 @@ body {
 .white {
   background: #fff; }
   .white .nav-link {
-    font-size: 1.5rem;
     text-decoration: none;
     color: black !important;
     font-family: "Rajdhani", sans-serif;
@@ -352,6 +363,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh; }
+  @media only screen and (max-width: 500px) {
+    #Cover img {
+      width: 320px; } }
   #Cover h1 {
     font-family: "Major Mono Display", monospace;
     font-size: 7rem;
@@ -362,11 +376,17 @@ body {
     -moz-animation: flickerAnimation 1s infinite;
     -o-animation: flickerAnimation 1s infinite;
     animation: flickerAnimation 1s infinite; }
+    @media only screen and (max-width: 500px) {
+      #Cover h1 {
+        font-size: 3rem; } }
   #Cover h2 {
     font-family: "Wallpoet", cursive;
     font-size: 5rem;
     margin-top: 0;
     color: #ff3535; }
+    @media only screen and (max-width: 500px) {
+      #Cover h2 {
+        font-size: 2rem; } }
   #Cover section {
     position: relative; }
   #Cover section::after {
@@ -489,15 +509,24 @@ body {
           font-size: 100px;
           line-height: 100%;
           font-family: "Rajdhani", sans-serif; }
+          @media only screen and (max-width: 500px) {
+            #WhatWeDo #blurb .contents h2 .line-1 {
+              font-size: 40px; } }
         #WhatWeDo #blurb .contents h2 .line-2 {
           font-weight: 300;
           font-size: 120px;
           font-family: "Rajdhani", sans-serif; }
+          @media only screen and (max-width: 500px) {
+            #WhatWeDo #blurb .contents h2 .line-2 {
+              font-size: 50px; } }
         #WhatWeDo #blurb .contents h2 .line-3 {
           font-weight: 700;
           font-size: 150px;
           margin-top: 20px;
           font-family: "Rajdhani", sans-serif; }
+          @media only screen and (max-width: 500px) {
+            #WhatWeDo #blurb .contents h2 .line-3 {
+              font-size: 55px; } }
       #WhatWeDo #blurb .contents hr {
         border: none;
         height: 1px;
@@ -527,6 +556,9 @@ body {
         line-height: 43px;
         color: #d6d8ff;
         margin: 0; }
+        @media only screen and (max-width: 500px) {
+          #WhatWeDo #blurb .contents p {
+            font-size: 20px; } }
         #WhatWeDo #blurb .contents p strong {
           font-weight: 400; }
       #WhatWeDo #blurb .contents .item {
@@ -540,6 +572,9 @@ body {
     text-align: center;
     background: #ff3535;
     padding-bottom: 250px; }
+    @media only screen and (max-width: 500px) {
+      #WhatWeDo #our-process {
+        padding-bottom: 350px; } }
     #WhatWeDo #our-process:before {
       content: ' ';
       display: block;
@@ -567,6 +602,11 @@ body {
     font-weight: 700;
     opacity: 0.5;
     z-index: 89; }
+    @media only screen and (max-width: 500px) {
+      #WhatWeDo #our-process .huge-town {
+        font-size: 110px;
+        text-align: left;
+        left: 0; } }
   #WhatWeDo #our-process .huge-town span {
     display: block;
     letter-spacing: -0.04em; }
@@ -605,6 +645,14 @@ body {
     border-radius: 100%;
     position: relative;
     border: solid 3px #fff; }
+    @media only screen and (max-width: 500px) {
+      #WhatWeDo #our-process span.icon {
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+        color: #00d2c1;
+        font-size: 25px;
+        margin-bottom: 20px; } }
   #WhatWeDo #our-process span.icon.think {
     color: #ff6e6e; }
   #WhatWeDo #our-process span.icon.design {
@@ -634,6 +682,10 @@ body {
     -moz-transition: all 250ms ease;
     transition: all 250ms ease;
     background: #fff; }
+    @media only screen and (max-width: 500px) {
+      #WhatWeDo #our-process span.icon:before {
+        width: 75px;
+        height: 75px; } }
   #WhatWeDo #our-process span.icon:hover,
   #WhatWeDo #our-process span.icon.active {
     color: #fff;
@@ -663,6 +715,9 @@ body {
     font-size: 40px;
     color: #fff;
     letter-spacing: 0.05em; }
+    @media only screen and (max-width: 500px) {
+      #WhatWeDo #our-process h3 {
+        font-size: 25px; } }
   #WhatWeDo #our-process h4 {
     position: absolute;
     bottom: 0;
@@ -680,6 +735,9 @@ body {
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
     transition: all 250ms ease; }
+    @media only screen and (max-width: 500px) {
+      #WhatWeDo #our-process h4 {
+        font-size: 25px; } }
   #WhatWeDo #our-process h4.active {
     opacity: 1; }
   #WhatWeDo #our-process h4 i {
@@ -701,6 +759,9 @@ body {
   #WhoWeAre #Bio {
     position: relative;
     padding: 200px 0px 200px 0px; }
+    @media only screen and (max-width: 500px) {
+      #WhoWeAre #Bio {
+        padding: 150px 0px 150px 0px; } }
     #WhoWeAre #Bio:before {
       content: ' ';
       display: block;
@@ -724,14 +785,24 @@ body {
         font-weight: bold;
         font-size: 5rem;
         margin-bottom: 25px; }
+        @media only screen and (max-width: 500px) {
+          #WhoWeAre #Bio .container h1 {
+            font-size: 3rem; } }
       #WhoWeAre #Bio .container img {
         border-radius: 50%;
         width: 320px;
         border: 2px solid green;
         margin-bottom: 25px; }
+        @media only screen and (max-width: 500px) {
+          #WhoWeAre #Bio .container img {
+            width: 300px; } }
       #WhoWeAre #Bio .container p {
         font-size: 1.5rem;
         font-family: "Open Sans", sans-serif; }
+        @media only screen and (max-width: 500px) {
+          #WhoWeAre #Bio .container p {
+            font-size: 1.2rem;
+            padding: 10px; } }
         #WhoWeAre #Bio .container p .david {
           font-size: 2rem;
           font-weight: bold; }
@@ -771,6 +842,12 @@ body {
       flex-direction: row;
       justify-content: center;
       align-items: center; }
+      @media only screen and (max-width: 500px) {
+        #WhoWeAre #our-services .container-fluid .row {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; } }
     #WhoWeAre #our-services .contents {
       z-index: 9999999;
       position: relative; }
@@ -785,6 +862,16 @@ body {
       margin-top: -8px;
       font-family: "Rajdhani", sans-serif;
       text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+      @media only screen and (max-width: 500px) {
+        #WhoWeAre #our-services h2 .our {
+          display: none; } }
+      @media only screen and (max-width: 500px) {
+        #WhoWeAre #our-services h2 {
+          font-size: 50px;
+          writing-mode: vertical-lr;
+          text-orientation: upright;
+          letter-spacing: -20px;
+          line-height: 50px; } }
     #WhoWeAre #our-services .list ul {
       right: 0;
       font-family: 'Open Sans', sans-serif;

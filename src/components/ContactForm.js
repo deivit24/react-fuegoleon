@@ -36,12 +36,18 @@ class ContactForm extends React.Component {
           />
         </div>
         <div className="input-wrap select-wrap">
-          <select name="inquiry" className="input inquiry">
-            <option disabled>Inquiry Reason</option>
-            <option selected>About a new project</option>
+          <select
+            defaultValue={'DEFAULT'}
+            name="inquiry"
+            className="input inquiry"
+          >
+            <option value="DEFAULT">Inquiry Reason</option>
+            <option value="new project">About a new project</option>
 
-            <option>About how much I love you</option>
-            <option>About how much I hate that I love you</option>
+            <option value="i love you">About how much I love you</option>
+            <option value="i love you more">
+              About how much I hate that I love you
+            </option>
           </select>
           <span
             className="morph-shape"
