@@ -292,20 +292,3 @@
 #Contact .input-wrap.has-error svg path {
   fill: rgb(255, 60, 60);
 }
-#Contact:after {
-  content: ' ';
-  display: block;
-  height: 200px;
-  width: 100%;
-  background: #0b0021;
-  -webkit-transform: skewY(-3deg) translateZ(0);
-  -moz-transform: skewY(-3deg) translateZ(0);
-  -ms-transform: skewY(-3deg) translateZ(0);
-  -o-transform: skewY(-3deg) translateZ(0);
-  transform: skewY(-3deg) translateZ(0);
-  position: absolute;
-  left: 0;
-  bottom: -100px;
-  overflow: hidden;
-  z-index: 88;
-}
