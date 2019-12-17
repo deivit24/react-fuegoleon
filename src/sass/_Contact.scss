@@ -1,0 +1,311 @@
+/* ===============================
+=            CONTACT            =
+=============================== */
+::placeholder {
+  color: #c8a4ff;
+}
+::-webkit-input-placeholder {
+  color: #c8a4ff;
+}
+::-moz-placeholder {
+  color: #c8a4ff;
+}
+:-ms-input-placeholder {
+  color: #c8a4ff;
+}
+#Contact {
+  background: #7d41ff;
+  background-image: -webkit-linear-gradient(35deg, #00009a, #b300b3);
+  background-image: linear-gradient(35deg, #00009a, #b300b3);
+  padding: 350px 0 500px;
+}
+#Contact:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(44, 255, 44, 0.67);
+  -webkit-transition: all 225ms ease;
+  -moz-transition: all 225ms ease;
+  transition: all 225ms ease;
+  opacity: 0;
+}
+#Contact.success:before {
+  opacity: 1;
+}
+#Contact .contact-form {
+  text-align: right;
+  position: relative;
+  z-index: 999999999999999;
+}
+#Contact canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: 0;
+}
+.hide-those-particles #Contact canvas {
+  display: none !important;
+}
+#Contact .input-wrap {
+  position: relative;
+  height: 60px;
+  margin-bottom: 10px;
+}
+#Contact .input-wrap.textarea {
+  height: 300px;
+}
+#Contact .select-wrap {
+  position: relative;
+  z-index: 999999;
+}
+#Contact .input-wrap input,
+#Contact .input-wrap select {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+  position: absolute;
+  left: 3%;
+  width: 94%;
+  height: 53px;
+  z-index: 9999;
+  margin-top: 3px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: rgb(64, 20, 112);
+  z-index: 9999999;
+}
+#Contact .input-wrap textarea {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  left: 3%;
+  width: 94%;
+  display: block;
+  padding: 7px;
+  height: 300px;
+  font-weight: 300;
+  background: rgb(64, 20, 112);
+  -webkit-transition: all 225ms ease;
+  -moz-transition: all 225ms ease;
+  transition: all 225ms ease;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  line-height: 29px;
+  resize: none;
+  z-index: 9999;
+}
+#Contact .input-wrap svg {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  height: 78px;
+}
+#Contact .input-wrap.textarea svg {
+  height: 410px;
+  top: -54px;
+}
+#Contact .input-wrap.checkbox {
+  margin-top: 35px;
+}
+#Contact .input-wrap.checkbox input {
+  width: 35px;
+  height: 35px;
+  display: block;
+  position: absolute;
+  right: 0;
+  left: auto;
+  opacity: 0;
+}
+#Contact .input-wrap.checkbox svg {
+  width: 45px;
+  height: 55px;
+  left: auto;
+  right: 19px;
+}
+#Contact .input-wrap.checkbox label {
+  padding-right: 53px;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 300;
+  margin-top: 2px;
+  z-index: 9999999;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 20px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#Contact .input-wrap.checkbox i {
+  color: rgb(180, 255, 180);
+  font-size: 30px;
+  z-index: 99999;
+  position: absolute;
+  right: 26px;
+  top: 3px;
+  -webkit-transition: all 225ms ease;
+  -moz-transition: all 225ms ease;
+  transition: all 225ms ease;
+  display: block;
+  opacity: 1;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+}
+#Contact .input-wrap.checkbox i.ti-control-stop {
+  opacity: 0;
+  font-size: 32px;
+}
+#Contact .input-wrap svg path {
+  fill: rgb(64, 20, 112);
+  -webkit-transition: all 225ms ease;
+  -moz-transition: all 225ms ease;
+  transition: all 225ms ease;
+}
+#Contact .input-wrap.checkbox.nopeee svg path {
+  fill: #e3e3e3;
+}
+#Contact .input-wrap.checkbox.nopeee i {
+  color: rgb(255, 120, 126);
+}
+#Contact .input-wrap.checkbox.nopeee i.ti-control-stop {
+  opacity: 1;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+#Contact .input-wrap.checkbox.nopeee i.ti-check-box {
+  opacity: 0;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+#Contact h2 {
+  margin: 0;
+  color: #fff;
+  line-height: 135px;
+  text-align: right;
+  z-index: 10;
+  position: relative;
+}
+#Contact h2 span {
+  display: inline-block;
+}
+#Contact h2 span.lets {
+  font-weight: 200;
+  font-size: 175px;
+  margin-top: -1px;
+}
+#Contact h2 span.chat {
+  font-size: 220px;
+}
+#Contact p.lead {
+  margin: 0;
+  color: rgb(233, 214, 255);
+  text-align: right;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  margin-top: 51px;
+  z-index: 10;
+  position: relative;
+}
+#Contact p.lead a {
+  color: #fff;
+}
+#Contact p.lead a:hover {
+  color: rgb(162, 255, 176);
+}
+#Contact .input-wrap.submit input {
+  background: rgb(206, 136, 255);
+  outline: none !important;
+  border: none !important;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  -webkit-transition: all 225ms ease;
+  -moz-transition: all 225ms ease;
+  transition: all 225ms ease;
+}
+#Contact .input-wrap.submit svg path {
+  fill: rgb(206, 136, 255);
+}
+#Contact .input-wrap.submit input:hover {
+  background: rgb(162, 255, 176);
+  color: #000;
+  cursor: pointer;
+}
+#Contact .input-wrap.submit input:hover ~ span svg path {
+  fill: rgb(162, 255, 176);
+}
+.form-overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  z-index: -100;
+  opacity: 0;
+  -webkit-transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+.show-form-overlay .form-overlay {
+  z-index: 9999999999;
+  opacity: 0.9;
+}
+#Contact .input-wrap.has-error input,
+#Contact .input-wrap.has-error textarea {
+  background: rgb(255, 60, 60);
+}
+#Contact .input-wrap.has-error svg path {
+  fill: rgb(255, 60, 60);
+}
+#Contact:after {
+  content: ' ';
+  display: block;
+  height: 200px;
+  width: 100%;
+  background: #0b0021;
+  -webkit-transform: skewY(-3deg) translateZ(0);
+  -moz-transform: skewY(-3deg) translateZ(0);
+  -ms-transform: skewY(-3deg) translateZ(0);
+  -o-transform: skewY(-3deg) translateZ(0);
+  transform: skewY(-3deg) translateZ(0);
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  overflow: hidden;
+  z-index: 88;
+}
