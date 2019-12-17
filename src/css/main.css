@@ -39,7 +39,7 @@
 #Contact .contact-form {
   text-align: right;
   position: relative;
-  z-index: 999999999999999; }
+  z-index: 1; }
 
 #Contact canvas {
   position: absolute;
@@ -334,9 +334,11 @@ body {
     color: black !important;
     font-family: "Rajdhani", sans-serif;
     font-weight: 700; }
+    .white .nav-link:hover {
+      color: #ff3535 !important; }
   .white .active {
     color: #ff3535 !important;
-    font-weight: 700;
+    font-weight: 700 !important;
     border-bottom: 2px solid #ff3535; }
 
 #Cover {
@@ -812,14 +814,14 @@ body {
 
 #Footer {
   position: relative;
-  background: #1a237e;
+  background: #0a0000;
   height: 400px; }
   #Footer:before {
     content: ' ';
     display: block;
     height: 180px;
     width: 100%;
-    background: #1a237e;
+    background: #0a0000;
     -webkit-transform: skewY(-3deg) translateZ(0);
     -moz-transform: skewY(-3deg) translateZ(0);
     -ms-transform: skewY(-3deg) translateZ(0);

@@ -52,10 +52,13 @@ body {
     color: black !important;
     font-family: $raj;
     font-weight: 700;
+    &:hover {
+      color: #ff3535 !important;
+    }
   }
   .active {
     color: #ff3535 !important;
-    font-weight: 700;
+    font-weight: 700 !important;
     border-bottom: 2px solid #ff3535;
   }
 }
@@ -673,14 +676,14 @@ body {
 
 #Footer {
   position: relative;
-  background: #1a237e;
+  background: #0a0000;
   height: 400px;
   &:before {
     content: ' ';
     display: block;
     height: 180px;
     width: 100%;
-    background: #1a237e;
+    background: #0a0000;
     -webkit-transform: skewY(-3deg) translateZ(0);
     -moz-transform: skewY(-3deg) translateZ(0);
     -ms-transform: skewY(-3deg) translateZ(0);

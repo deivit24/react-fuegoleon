@@ -68,7 +68,7 @@ class Nav extends React.Component {
             exact
             activeClass="active"
             className="nav-link"
-            to="Footer"
+            to="Contact"
             spy={true}
             smooth={true}
             duration={200}
