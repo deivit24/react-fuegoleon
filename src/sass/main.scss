@@ -6,11 +6,11 @@ $raj: 'Rajdhani', sans-serif;
 $open: 'Open Sans', sans-serif;
 
 body {
-  background: white;
+  background: #000;
 }
 .justify-content-center {
   transition: all 0.5s ease-in-out;
-  background: #0a0000;
+  background: #00001d;
   padding: 10px 0px;
   @media only screen and (max-width: 500px) {
     padding: 30px 0px 10px 0px;
@@ -67,18 +67,19 @@ body {
     border-bottom: 2px solid #ff3535;
   }
 }
+#particles {
+  width: 100%;
+
+  position: fixed;
+}
 #Cover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../img/cover.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
+
   img {
     @media only screen and (max-width: 500px) {
       width: 320px;
@@ -219,13 +220,13 @@ body {
 =============================*/
   #blurb {
     padding: 150px 0 300px;
-    background: #0a0000;
+    background: #00001d;
     &:before {
       content: ' ';
       display: block;
       height: 180px;
       width: 100%;
-      background: #0a0000;
+      background: #00001d;
       -webkit-transform: skewY(-3deg) translateZ(0);
       -moz-transform: skewY(-3deg) translateZ(0);
       -ms-transform: skewY(-3deg) translateZ(0);
@@ -587,6 +588,7 @@ body {
 }
 #WhoWeAre {
   #Bio {
+    background: white;
     position: relative;
     padding: 200px 0px 200px 0px;
     @media only screen and (max-width: 500px) {
@@ -763,14 +765,14 @@ body {
 
 #Footer {
   position: relative;
-  background: #0a0000;
+  background: #00001d;
   height: 400px;
   &:before {
     content: ' ';
     display: block;
     height: 180px;
     width: 100%;
-    background: #0a0000;
+    background: #00001d;
     -webkit-transform: skewY(-3deg) translateZ(0);
     -moz-transform: skewY(-3deg) translateZ(0);
     -ms-transform: skewY(-3deg) translateZ(0);

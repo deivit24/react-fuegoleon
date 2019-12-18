@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Logo from '../img/logo.png';
 
 class Cover extends React.Component {
