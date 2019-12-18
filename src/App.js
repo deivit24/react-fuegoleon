@@ -28,7 +28,7 @@ class App extends React.Component {
                 },
                 move: {
                   direction: 'right',
-                  speed: 0.1
+                  speed: 0.2
                 },
                 size: {
                   value: 1
