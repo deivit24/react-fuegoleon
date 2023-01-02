@@ -6,19 +6,19 @@
     "bootstrap": "^4.4.1",
     "dotenv": "^8.2.0",
     "jquery": "^3.6.3",
-    "node-sass": "^4.13.0",
     "popper.js": "^1.16.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-particles-js": "^2.7.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
+    "react-scripts": "3.4.1",
     "react-scroll": "^1.7.14",
+    "sass": "^1.57.1",
     "scrollmagic": "^2.0.7"
   },
   "scripts": {
-    "sass": "node-sass -w src/sass/ -o src/css/ --recursive",
-    "start": "react-scripts start",
+    "sass": "sass -w src/sass/ -o src/css/ --recursive",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
